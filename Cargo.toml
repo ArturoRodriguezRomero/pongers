@@ -1,0 +1,11 @@
+[package]
+name = "pongers"
+version = "0.1.0"
+authors = ["Arturo Rodriguez Romero <arturo.rodriguez@autentia.com>"]
+edition = "2018"
+
+[dependencies]
+amethyst = { git = "https://github.com/amethyst/amethyst", features = ["metal"] }
+
+[profile.release]
+opt-level = 3
